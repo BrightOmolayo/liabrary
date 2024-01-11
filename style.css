@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(3, 3, 49);
+    color: bisque;
+}
+@media only screen and (max-width:786px){
+    body{
+        background-color: rgb(66, 1, 66);
+        color: bisque;
+    } 
+}
