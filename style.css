@@ -1,3 +1,5 @@
+
+
 body{
     background-color: rgb(3, 3, 49);
     color: bisque;
@@ -7,11 +9,7 @@ body{
     background-color: bisque;
     height: 1px;
 }
-.addbook{
-    position: relative;
-    left: 43%;
-    width: 30%;
-}
+
 
 
 
@@ -26,9 +24,6 @@ body{
         background-color: bisque;
         height: 1px;
     }
-    .addbook{
-        position: relative;
-        left: 23%;
-    }
+    
     
 }

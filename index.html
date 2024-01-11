@@ -7,39 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>LIBRARY</h1>
-    <p>THIS IS YOUR PERSONAL BOOK LIBRARY WHICH WOULD ENABLE YOU NOTE DOWN THE BOOKS YOU'VE READ OR NOT.<p>
-    <div class="addbook">
-        <h2>ADD BOOK</h2>
-        <form action="">
-            <label for="name">NAME</label> <br>
-                <input type="text" placeholder="name" class="input">
-                <br>
-            <label for="author">AUTHOR</label><br>
-                <input type="text" placeholder="author" class="input">
-                <br>
-                
-            <label for="year">YEAR</label><br>
-                <input type="text" name="number" id="year" placeholder="YEAR" class="input">
-                <br>
+    <!-- pop-up dialog box, containing a form -->
+    <dialog id="favDialog">
+        <form method="dialog">
 
-                
-            <label for="pages">PAGES</label>
-            <br>
-            <input type="text" name="pages" id="pages" class="input">
-            <br>
             
-            <label for="status">STATUS:READ OR NOT</label><br>
-            <input type="checkbox" name="status" id="" class="input">
-            <br>
+                <!--label for="favAnimal">Favorite animal:</label>
+                <select id="favAnimal" name="favAnimal">
+                   <option></option-->
 
-            <button type="submit">SAVE</button>
+                <label for="name">NAME</label> <br>
+                   
+                   <input type="text" placeholder="name" class="input">
+                   <br>
+                   
+               <label for="author">AUTHOR</label><br>
+                  
+                   <input type="text" placeholder="author" class="input">
+                   <br>
+               <label for="pages">PAGES</label><br>
+
+                   <input type="text" name="number" id="number" placeholder="pages">
+                   <br>
+   
+               <label for="year">YEAR</label><br>
+                   <input type="text" name="number" id="year" placeholder="YEAR" class="input">
+                   <br>
+               <label for="status">STATUS</label><br>
+               <input type="text" placeholder="read or not">
+               <br>
+   
+                </select>
+            
+            <div>
+              <button id="cancel" type="reset">SAVE</button>
+              <button type="submit">SAVE</button>
+            </div>
 
         </form>
-    </div>
-    <div class="line">
-       
-    </div>
+
+    </dialog>
+  
+    <div>
+       <button id="updateDetails">ADD BOOK</button>
+    </div>   
+
+    <div class="line"></div>
+
     <script src="./main.js"></script>
 </body>
 </html>
